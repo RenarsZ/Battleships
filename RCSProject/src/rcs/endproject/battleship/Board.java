@@ -67,7 +67,7 @@ public class Board {
 
 	public void deployShipOnBoard(int playerNum) {
 
-		for (int z = 0; z < 1; z++) {
+		for (int z = 0; z < Ship.ships.length; z++) {
 			printBoard(playerNum);
 
 			this.userInput = new Scanner(System.in);
